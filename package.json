@@ -2,7 +2,8 @@
   "name": "hono-cloudflare",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "commit": "cz"
   },
   "dependencies": {
     "hono": "^4.6.4"

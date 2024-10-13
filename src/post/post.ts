@@ -1,20 +1,7 @@
 import {Hono} from "hono";
+import {exportBlogPosts} from "../data/data";
 
-let blogPosts=[
-    {
-        name:"blog one",
-        id:"1",
-        content:"blog one content"
-    },{
-        name:"blog 2",
-        id:"2",
-        content:"blog 2 content"
-    },{
-        name:"blog 3",
-        id:"3",
-        content:"blog 3 content"
-    },
-]
+let blogPosts=exportBlogPosts
 
 const app=new Hono()
 
